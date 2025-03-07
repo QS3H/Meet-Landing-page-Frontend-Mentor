@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution On Frontend Mentor](https://www.frontendmentor.io/solutions/meet-landing-page-solution-JW6aPgEMhn)
+- Live Site URL: [live site](https://qs3h.github.io/Meet-Landing-page-Frontend-Mentor/)
 
 ## My process
 
