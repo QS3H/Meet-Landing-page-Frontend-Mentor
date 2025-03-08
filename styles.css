@@ -128,6 +128,19 @@ body {
   font-size: 1rem;
   font-weight: var(--fw-black);
   margin: 0 auto;
+  transition: all 0.3s;
+}
+
+.number-one:hover {
+  background-color: hsl(192, 54%, 64%);
+  color: var(--clr-neutral-white);
+  transform: rotate(360deg);
+}
+
+.number-two:hover {
+  background-color: var(--clr-secondary-purple-dark);
+  color: var(--clr-neutral-white);
+  transform: rotate(360deg);
 }
 
 /* Header Section*/
