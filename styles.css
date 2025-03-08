@@ -237,6 +237,14 @@ header img {
   margin: 4rem 0;
 }
 
+.gallery-item {
+  transition: all 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
 .gallery img {
   width: 16rem;
   border-radius: 0.5rem;
