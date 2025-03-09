@@ -27,14 +27,6 @@ svg {
   max-width: 100%;
 }
 
-/* 6. Inherit fonts for form controls */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
 /* 7. Avoid text overflows */
 p,
 h1,
@@ -73,18 +65,18 @@ h6 {
   --fw-medium: 600;
   --fw-black: 900;
 
-  --fs-400: 1rem;
-  --fs-500: 1.125rem;
-  --fs-600: 1.5rem;
-  --fs-700: 1.75rem;
-  --fs-800: 2rem;
-  --fs-900: 4rem;
+  --fs-400: 1em;
+  --fs-500: 1.125em;
+  --fs-600: 1.5em;
+  --fs-700: 1.75em;
+  --fs-800: 2em;
+  --fs-900: 4em;
 }
 
 body {
   min-height: 100vh;
   font-family: var(--font-family-default);
-  font-size: 1rem;
+  font-size: 1em;
   background-color: var(--clr-neutral-white);
 }
 
@@ -96,16 +88,16 @@ body {
 
 .vertical-line {
   content: "";
-  width: 0.063rem;
-  height: 5rem;
+  width: 0.063em;
+  height: 5em;
   background-color: var(--clr-neutral-gray-light);
   margin: 0 auto;
 }
 
 .vertical-line2 {
   content: "";
-  width: 0.063rem;
-  height: 5rem;
+  width: 0.063em;
+  height: 5em;
   background-color: var(--clr-neutral-gray-light);
   margin: 0 auto;
 }
@@ -113,19 +105,19 @@ body {
 .number-two,
 .vertical-line2 {
   position: relative;
-  top: calc(3.5rem / 2);
+  top: calc(3.5em / 2);
   z-index: 2;
 }
 
 .number-two,
 .number-one {
   border-radius: 50%;
-  border: 0.063rem solid var(--clr-neutral-gray-light);
+  border: 0.063em solid var(--clr-neutral-gray-light);
   background-color: var(--clr-neutral-white);
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3.5em;
+  height: 3.5em;
   color: var(--clr-neutral-gray);
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: var(--fw-black);
   margin: 0 auto;
   transition: all 0.3s;
@@ -148,11 +140,11 @@ body {
 header {
   display: flex;
   justify-content: center;
-  padding: 5rem 5rem 0 5rem;
+  padding: 5em 5em 0 5em;
 }
 
 header img {
-  width: 7.375rem;
+  width: 7.375em;
 }
 
 /* Hero Section */
@@ -162,11 +154,11 @@ header img {
   text-align: center;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 0;
+  padding: 4em 0;
 }
 
 .hero-section h1 {
-  font-size: 4rem;
+  font-size: 4em;
   line-height: 110%;
   font-weight: var(--fw-black);
 }
@@ -181,22 +173,22 @@ header img {
 .heading-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2em;
 }
 
 .buttons {
   display: flex;
-  gap: 1rem;
+  gap: 1em;
   justify-content: center;
 }
 
 .cyan-btn {
-  padding: 1rem 2.5rem;
+  padding: 1em 2.5em;
   background-color: var(--clr-primary-cyan-dark);
   border: none;
-  border-radius: 1.813rem;
+  border-radius: 1.813em;
   color: var(--clr-neutral-white);
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 150%;
   font-weight: var(--fw-black);
   margin-right: 0;
@@ -217,11 +209,11 @@ header img {
 }
 
 .purple-btn {
-  padding: 1rem 3rem;
+  padding: 1em 3em;
   border: none;
-  border-radius: 1.813rem;
+  border-radius: 1.813em;
   color: var(--clr-neutral-white);
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 150%;
   font-weight: var(--fw-black);
   background-color: var(--clr-secondary-purple-dark);
@@ -229,7 +221,7 @@ header img {
 }
 
 .purple-btn span {
-  margin-left: 0.2rem;
+  margin-left: 0.2em;
 }
 
 .purple-btn:hover {
@@ -239,15 +231,15 @@ header img {
 /* Main Content Section */
 
 .content-section {
-  margin: 3.5rem 5rem 4.5rem 5rem;
+  margin: 3.5em 5em 4.5em 5em;
   text-align: center;
 }
 
 .gallery {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  margin: 4rem 0;
+  gap: 2em;
+  margin: 4em 0;
 }
 
 .gallery-item {
@@ -259,18 +251,18 @@ header img {
 }
 
 .gallery img {
-  width: 16rem;
-  border-radius: 0.5rem;
+  width: 16em;
+  border-radius: 0.5em;
 }
 
 .title {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 
 .sub-heading {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  letter-spacing: 4px;
+  margin-bottom: 1em;
+  font-size: 1em;
+  letter-spacing: 0.25em;
   line-height: 110%;
   font-weight: var(--fw-black);
   color: var(--clr-primary-cyan-dark);
@@ -278,14 +270,14 @@ header img {
 }
 
 .heading {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: var(--fw-black);
   line-height: 110%;
   color: var(--clr-neutral-gray-dark);
 }
 
 .text {
-  font-size: 1.125rem;
+  font-size: 1.125em;
   font-weight: var(--fw-medium);
   color: var(--clr-neutral-gray);
   line-height: 150%;
@@ -296,7 +288,7 @@ header img {
 .footer {
   background-color: var(--clr-primary-cyan-dark);
   z-index: 1;
-  padding: 7rem 5rem;
+  padding: 7em 5em;
   position: relative;
 }
 
@@ -318,18 +310,18 @@ header img {
 }
 
 .footer-content {
-  gap: 18rem;
+  gap: 18em;
 }
 
 .footer-heading {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: var(--fw-black);
   line-height: 110%;
   color: var(--clr-neutral-white);
 }
 
 .footer-text {
-  font-size: 1.125rem;
+  font-size: 1.125em;
   font-weight: var(--fw-medium);
   color: var(--clr-neutral-white);
   line-height: 150%;
@@ -338,60 +330,60 @@ header img {
 /* Media Queries */
 
 /* Tablet (768px and below) */
-@media screen and (min-width: 768px) and (max-width: 1250px) {
+@media screen and (min-width: 48em) and (max-width: 78.125em) {
   .hero-section {
     flex-direction: column;
-    padding: 2rem 0;
+    padding: 2em 0;
   }
 
   .hero-section h1 {
-    font-size: 3rem;
+    font-size: 3em;
   }
 
   .heading-content {
-    padding: 0 2rem;
-    margin: 2rem 0;
+    padding: 0 2em;
+    margin: 2em 0;
   }
 
   .gallery {
     display: flex;
     flex-wrap: nowrap;
-    gap: 1.125rem;
+    gap: 1.125em;
     justify-content: center;
-    padding: 0 2rem;
-    margin: 4rem 0;
+    padding: 0 2em;
+    margin: 4em 0;
   }
 
   .gallery img {
-    width: 10rem;
-    height: 10rem;
+    width: 10em;
+    height: 10em;
     object-fit: cover;
-    border-radius: 0.5rem;
+    border-radius: 0.5em;
   }
 
   .content-section {
-    margin: 2.5rem 2rem 3.5rem 2rem;
+    margin: 2.5em 2em 3.5em 2em;
   }
 
   .footer {
-    padding: 5rem 2rem;
+    padding: 5em 2em;
   }
 
   .footer-content {
-    gap: 2rem;
+    gap: 2em;
     flex-direction: column;
     text-align: center;
-    max-width: 36rem;
+    max-width: 36em;
     margin: 0 auto;
   }
 
   .footer-heading {
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   .footer-text {
-    font-size: 1rem;
-    padding: 0 1rem;
+    font-size: 1em;
+    padding: 0 1em;
   }
 
   .footer::after {
@@ -400,27 +392,27 @@ header img {
 }
 
 /* Mobile (768px and below) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
   header {
-    padding: 3rem 2rem 0 2rem;
+    padding: 3em 2em 0 2em;
   }
 
   header img {
-    width: 5.375rem;
+    width: 5.375em;
   }
 
   .hero-section h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
 
   .hero-section {
     flex-direction: column;
-    padding: 2rem 0;
+    padding: 2em 0;
   }
 
   .hero-section picture {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1em;
   }
 
   .hero-section img {
@@ -435,72 +427,72 @@ header img {
   }
 
   .heading-content {
-    padding: 0 1rem;
+    padding: 0 1em;
   }
 
   .buttons {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1em;
     align-items: center;
   }
 
   .cyan-btn,
   .purple-btn {
-    max-width: 20rem;
+    max-width: 20em;
   }
 
   .cyan-btn {
-    padding: 1rem 3.5rem;
+    padding: 1em 3.5em;
   }
 
   .purple-btn {
-    padding: 1rem 2.5rem;
+    padding: 1em 2.5em;
   }
 
   .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    padding: 0 1.5rem;
-    margin: 3rem 0;
+    gap: 1.5em;
+    padding: 0 1.5em;
+    margin: 3em 0;
   }
 
   .gallery img {
     width: 100%;
-    height: 9.5rem;
+    height: 9.5em;
     object-fit: cover;
-    border-radius: 0.5rem;
+    border-radius: 0.5em;
   }
 
   .heading {
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   .text {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   .footer {
-    padding: 4rem 1.5rem;
+    padding: 4em 1.5em;
   }
 
   .footer .purple-btn {
-    font-size: 0.8rem;
-    padding: 1rem 2rem;
+    font-size: 0.8em;
+    padding: 1em 2em;
   }
 
   .footer-content {
-    gap: 1.5rem;
+    gap: 1.5em;
     max-width: 100%;
   }
 
   .footer-heading {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 
   .footer-text {
-    font-size: 0.8rem;
+    font-size: 0.8em;
     padding: 0;
   }
 
@@ -509,12 +501,12 @@ header img {
   }
 
   .vertical-line {
-    height: 4rem;
+    height: 4em;
   }
 
   .number-one,
   .number-two {
-    width: 3rem;
-    height: 3rem;
+    width: 3em;
+    height: 3em;
   }
 }
