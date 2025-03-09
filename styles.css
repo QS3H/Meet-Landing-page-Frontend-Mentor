@@ -222,6 +222,7 @@ header img {
 
 .purple-btn span {
   margin-left: 0.2em;
+  color: var(--clr-secondary-purple-light);
 }
 
 .purple-btn:hover {
